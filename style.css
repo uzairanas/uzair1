@@ -1,0 +1,53 @@
+body{
+
+}
+
+H1,H2{
+
+	font-size: 20PX;
+	
+	padding: 0;
+	margin-top: 	-0.5em;
+	text-align: center;
+
+	
+}
+.resume{
+display: flex;
+padding: 20px auto;
+	margin-right: 20px;
+
+
+
+}
+p{
+	color: black;
+}
+.first{
+padding-top: 50px;
+
+}
+
+.resume>.second{
+display: flex;
+justify-content: center;
+padding-right: 50PX;
+margin-right: 50PX;
+margin-left: 550PX;
+
+}
+.second>p{
+	margin-top: -0.7em;
+}
+.one{
+
+	color: blue;
+	background: black;
+}
+.rotate {  
+  -webkit-transform:rotate(90deg);  
+  -moz-transform: rotate(90deg);  
+  -ms-transform: rotate(90deg);  
+  -o-transform: rotate(90deg);  
+  transform: rotate(90deg);  
+}  
